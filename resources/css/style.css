@@ -41,3 +41,11 @@ p {
 h3.designed-by{
   color: white;
 }
+
+.footer {
+  color: white;
+  font-size: 11px;
+  background-color: dimgray;
+  text-align: left;
+  display: block;
+}
