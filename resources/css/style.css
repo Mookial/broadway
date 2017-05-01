@@ -3,7 +3,7 @@ body {
   font-family: Helvetica, "Sans-Serif";
 }
 
-#header {
+.header {
   background-image: url("../../resources/images/the-flatiron-building.png");
   background-size: 100%;
   background-repeat: no-repeat;
@@ -15,8 +15,29 @@ h1 {
   color: white;
 }
 
-ul.links li a, ul.links li {
+ul.links, ul.links li a {
   font-size: 18px;
   color: white;
   list-style-type: none;
+  list-style-position: inside;
+  margin:0;
+  padding:0;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
+}
+
+h3.designed-by{
+  color: white;
 }
